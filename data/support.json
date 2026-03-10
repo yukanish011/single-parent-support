@@ -1,0 +1,43 @@
+{
+  "supports": [
+    {
+      "name": "児童扶養手当",
+      "conditions": {
+        "child": "yes",
+        "income": "yes"
+      },
+      "description": "ひとり親家庭の生活安定のための手当",
+      "documents": [
+        "戸籍謄本",
+        "所得証明書",
+        "住民票"
+      ],
+      "application": "お住まいの市区町村役所"
+    },
+    {
+      "name": "ひとり親家庭医療費助成",
+      "conditions": {
+        "child": "yes"
+      },
+      "description": "医療費の自己負担を軽減",
+      "documents": [
+        "健康保険証",
+        "戸籍謄本"
+      ],
+      "application": "自治体の福祉課"
+    },
+    {
+      "name": "保育料減免",
+      "conditions": {
+        "child": "yes",
+        "income": "yes"
+      },
+      "description": "保育園の保育料が減額される制度",
+      "documents": [
+        "所得証明",
+        "保育園申請書"
+      ],
+      "application": "自治体の保育課"
+    }
+  ]
+}
