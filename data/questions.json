@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "child",
+      "text": "18歳未満の子どもがいますか？",
+      "type": "yesno"
+    },
+    {
+      "id": "single",
+      "text": "現在ひとり親家庭ですか？",
+      "type": "yesno"
+    },
+    {
+      "id": "income",
+      "text": "世帯所得は基準以下ですか？",
+      "type": "yesno"
+    },
+    {
+      "id": "working",
+      "text": "現在働いていますか？",
+      "type": "yesno"
+    },
+    {
+      "id": "child_age",
+      "text": "子どもの年齢は？",
+      "type": "select",
+      "options": [
+        "0-5",
+        "6-12",
+        "13-18"
+      ]
+    }
+  ]
+}
