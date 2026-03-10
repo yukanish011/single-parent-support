@@ -1,11 +1,235 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
+
 <head>
-  <title>Single Parent Support</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Single Parent Support</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+font-family:'Noto Sans JP', sans-serif;
+margin:0;
+background:#f7f9f8;
+color:#333;
+}
+
+/* header */
+
+header{
+background:white;
+padding:20px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+box-shadow:0 2px 8px rgba(0,0,0,0.05);
+}
+
+.logo{
+font-weight:600;
+font-size:20px;
+color:#2f6f73;
+}
+
+nav a{
+margin-left:20px;
+text-decoration:none;
+color:#555;
+font-size:14px;
+}
+
+/* hero */
+
+.hero{
+padding:80px 20px;
+text-align:center;
+}
+
+.hero h1{
+font-size:34px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:18px;
+color:#666;
+margin-bottom:40px;
+}
+
+.cta{
+background:#6fb3b8;
+color:white;
+padding:16px 28px;
+border-radius:30px;
+text-decoration:none;
+font-size:18px;
+}
+
+/* sections */
+
+.section{
+padding:60px 20px;
+max-width:900px;
+margin:auto;
+}
+
+.section h2{
+text-align:center;
+margin-bottom:40px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:24px;
+border-radius:12px;
+box-shadow:0 4px 10px rgba(0,0,0,0.05);
+}
+
+.card h3{
+margin-top:0;
+}
+
+/* footer */
+
+footer{
+text-align:center;
+padding:40px;
+color:#777;
+font-size:14px;
+}
+
+</style>
+
 </head>
 
 <body>
-  <h1>Single Parent Support</h1>
-  <p>質問に答えるだけで受けられる支援を確認できます。</p>
+
+<header>
+
+<div class="logo">
+Single Parent Support
+</div>
+
+<nav>
+<a href="diagnosis.html">支援診断</a>
+<a href="tips.html">子育てTips</a>
+<a href="global.html">海外事情</a>
+</nav>
+
+</header>
+
+
+<section class="hero">
+
+<h1>
+3分で受けられる支援がわかる
+</h1>
+
+<p>
+質問に答えるだけで、あなたが受けられる可能性のある<br>
+支援制度・必要書類・申請先が分かります
+</p>
+
+<a class="cta" href="diagnosis.html">
+支援を調べる
+</a>
+
+</section>
+
+
+<section class="section">
+
+<h2>こんなことが分かります</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>受けられる支援制度</h3>
+<p>
+児童扶養手当や医療費助成など、
+あなたが対象になる可能性のある制度を表示します。
+</p>
+</div>
+
+<div class="card">
+<h3>必要な書類</h3>
+<p>
+役所に行く前に
+必要な書類をチェックできます。
+</p>
+</div>
+
+<div class="card">
+<h3>申請先</h3>
+<p>
+どこで申請するのか、
+どの窓口なのかを案内します。
+</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section class="section">
+
+<h2>シングルペアレントのための情報</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>子育てTips</h3>
+<p>
+忙しい毎日の中でもできる
+親子コミュニケーションのヒント。
+</p>
+
+<a href="tips.html">見る</a>
+
+</div>
+
+<div class="card">
+<h3>海外の支援制度</h3>
+<p>
+スウェーデンやアメリカなど
+海外のシングルペアレント事情。
+</p>
+
+<a href="global.html">見る</a>
+
+</div>
+
+<div class="card">
+<h3>コミュニティ（予定）</h3>
+<p>
+シングルペアレント同士が
+相談できるフォーラム。
+</p>
+</div>
+
+</div>
+
+</section>
+
+
+<footer>
+
+© Single Parent Support
+
+</footer>
+
+
 </body>
+
 </html>
